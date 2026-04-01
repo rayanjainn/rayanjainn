@@ -17,7 +17,6 @@
       "Collaborative Developer Tools",
       "Automation & Scraping Systems"
     ],
-    "building": ["draw-app", "multiverse", "boomsuite"],
     "philosophy": "Ship fast. Break things. Fix them faster."
   }
 }
