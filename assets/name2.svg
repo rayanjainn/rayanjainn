@@ -1,0 +1,10 @@
+<svg width="500" height="130" viewBox="0 0 500 130" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="130" fill="#0d0f14"/>
+  <text font-family="monospace" font-size="13" font-weight="bold" fill="#bb9af7" xml:space="preserve">
+    <tspan x="20" dy="1.2em"> ██╗ █████╗ ██╗███╗   ██╗</tspan>
+    <tspan x="20" dy="1.2em"> ██║██╔══██╗██║████╗  ██║</tspan>
+    <tspan x="20" dy="1.2em"> ██║███████║██║██╔██╗ ██║</tspan>
+    <tspan x="20" dy="1.2em">██╔╝██╔══██║██║██║╚██╗██║</tspan>
+    <tspan x="20" dy="1.2em">╚═╝ ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝</tspan>
+  </text>
+</svg>
