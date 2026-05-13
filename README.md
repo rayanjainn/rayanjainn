@@ -1,272 +1,316 @@
-<!-- Header Banner -->
+<!-- ASCII via patorjk rendered as SVG image — guaranteed to show -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Rayan%20Jain&fontSize=56&fontColor=ffffff&fontAlignY=38&animation=fadeIn" width="100%" />
+  <img src="./assets/name.svg" alt="RAYAN" width="700" />
+</div>
+<div align="center">
+  <img src="./assets/name2.svg" alt="JAIN" width="440" />
+</div>
+
+<!-- Animated subtitle -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2500&pause=800&color=9ECE6A&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Building+%E2%86%92+app.raycode.tech;TypeScript+%7C+Go+%7C+Swift+%7C+Rust+%7C+Python;Ship+fast.+Break+things.+Fix+faster." alt="typing" />
 </div>
 
 <br/>
 
-<!-- Bio block -->
-```json
-{
-  "developer": {
-    "name": "Rayan Jain",
-    "handle": "rayanjainn",
-    "location": "Mumbai, India",
-    "focus": [
-      "Full Stack Web Development",
-      "Collaborative Developer Tools",
-      "Automation & Scraping Systems"
-    ],
-    "philosophy": "Ship fast. Break things. Fix them faster."
-  }
-}
-```
-
-<br/>
-
-<!-- Live stat badges -->
+<!-- Badges row -->
 <div align="center">
   <a href="https://github.com/rayanjainn?tab=followers">
-    <img src="https://img.shields.io/github/followers/rayanjainn?style=flat-square&logo=github&logoColor=white&label=followers&labelColor=161b22&color=6d28d9" />
+    <img src="https://img.shields.io/github/followers/rayanjainn?style=for-the-badge&logo=github&logoColor=white&label=FOLLOWERS&labelColor=1a1b26&color=7aa2f7" />
   </a>
   &nbsp;
-  <a href="https://github.com/rayanjainn">
-    <img src="https://img.shields.io/github/stars/rayanjainn?affiliations=OWNER&style=flat-square&logo=github&logoColor=white&label=stars&labelColor=161b22&color=6d28d9" />
+  <a href="https://github.com/rayanjainn?tab=repositories&sort=stargazers">
+    <img src="https://img.shields.io/github/stars/rayanjainn?affiliations=OWNER&style=for-the-badge&logo=github&logoColor=white&label=STARS&labelColor=1a1b26&color=bb9af7" />
   </a>
   &nbsp;
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Frayanjainn&query=public_repos&style=flat-square&logo=github&logoColor=white&label=public%20repos&labelColor=161b22&color=6d28d9" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Frayanjainn&query=public_repos&style=for-the-badge&logo=github&logoColor=white&label=REPOS&labelColor=1a1b26&color=9ece6a" />
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=rayanjainn&style=flat-square&label=profile+views&color=6d28d9&labelColor=161b22" />
+  <img src="https://komarev.com/ghpvc/?username=rayanjainn&style=for-the-badge&label=VIEWS&color=f7768e&labelColor=1a1b26" />
 </div>
+
+<br/><br/>
 
 ---
 
-### Tech Stack
+## whoami
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th align="left" width="22%">Domain</th>
-      <th align="left" width="22%">Focus</th>
-      <th align="right">Technologies</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>Languages</b></td>
-      <td>Core</td>
-      <td align="right">
-        <img src="https://img.shields.io/badge/TypeScript-161b22?style=for-the-badge&logo=typescript&logoColor=3178C6" />
-        <img src="https://img.shields.io/badge/Swift-161b22?style=for-the-badge&logo=swift&logoColor=F05138" />
-        <img src="https://img.shields.io/badge/Go-161b22?style=for-the-badge&logo=go&logoColor=00ADD8" />
-        <img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=3776AB" />
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2"><b>Frontend</b></td>
-      <td>Frameworks</td>
-      <td align="right">
-        <img src="https://img.shields.io/badge/Next.js-161b22?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/React-161b22?style=for-the-badge&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Redux-161b22?style=for-the-badge&logo=redux&logoColor=764ABC" />
-      </td>
-    </tr>
-    <tr>
-      <td>Styling</td>
-      <td align="right">
-        <img src="https://img.shields.io/badge/TailwindCSS-161b22?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" />
-        <img src="https://img.shields.io/badge/Framer-161b22?style=for-the-badge&logo=framer&logoColor=white" />
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2"><b>Backend</b></td>
-      <td>Runtime & APIs</td>
-      <td align="right">
-        <img src="https://img.shields.io/badge/Node.js-161b22?style=for-the-badge&logo=nodedotjs&logoColor=339933" />
-        <img src="https://img.shields.io/badge/Express-161b22?style=for-the-badge&logo=express&logoColor=white" />
-        <img src="https://img.shields.io/badge/Bun-161b22?style=for-the-badge&logo=bun&logoColor=F9F1E1" />
-      </td>
-    </tr>
-    <tr>
-      <td>Databases</td>
-      <td align="right">
-        <img src="https://img.shields.io/badge/PostgreSQL-161b22?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
-        <img src="https://img.shields.io/badge/Redis-161b22?style=for-the-badge&logo=redis&logoColor=FF4438" />
-        <img src="https://img.shields.io/badge/MongoDB-161b22?style=for-the-badge&logo=mongodb&logoColor=47A248" />
-        <img src="https://img.shields.io/badge/Prisma-161b22?style=for-the-badge&logo=prisma&logoColor=white" />
-      </td>
-    </tr>
-    <tr>
-      <td><b>Infrastructure</b></td>
-      <td>DevOps & Tooling</td>
-      <td align="right">
-        <img src="https://img.shields.io/badge/Docker-161b22?style=for-the-badge&logo=docker&logoColor=2496ED" />
-        <img src="https://img.shields.io/badge/GitHub%20Actions-161b22?style=for-the-badge&logo=githubactions&logoColor=white" />
-        <img src="https://img.shields.io/badge/Vercel-161b22?style=for-the-badge&logo=vercel&logoColor=white" />
-        <img src="https://img.shields.io/badge/Postman-161b22?style=for-the-badge&logo=postman&logoColor=FF6C37" />
-      </td>
-    </tr>
-  </tbody>
+```fish
+╭─ rayan@raycode
+╰─❯ cat ./whoami.toml
+```
+
+```toml
+[identity]
+name        = "Rayan Jain"
+handle      = "@rayanjainn"
+location    = "Mumbai, Maharashtra, India"
+website     = "app.raycode.tech"
+email       = "rayansjain@gmail.com"
+
+[engineering]
+primary_lang  = "TypeScript"
+focus         = [
+  "Full Stack Web Development",
+  "Collaborative Developer Tools",
+  "Automation & Scraping Systems"
+]
+
+[mindset]
+philosophy  = "Ship fast. Break things. Fix them faster."
+status      = "always building something..."
+open_to     = ["collabs", "OSS", "interesting problems"]
+```
+
+<br/>
+
+---
+
+## Stack
+
+```fish
+╭─ rayan@raycode  ~
+╰─❯ ls ./stack --group-by=layer
+```
+
+<br/>
+
+<table width="100%" align="center">
+  <tr>
+    <td align="center" width="120"><b>Languages</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/TypeScript-1a1b26?style=for-the-badge&logo=typescript&logoColor=7aa2f7" />
+      <img src="https://img.shields.io/badge/Go-1a1b26?style=for-the-badge&logo=go&logoColor=7dcfff" />
+      <img src="https://img.shields.io/badge/Swift-1a1b26?style=for-the-badge&logo=swift&logoColor=f7768e" />
+      <img src="https://img.shields.io/badge/Python-1a1b26?style=for-the-badge&logo=python&logoColor=e0af68" />
+      <img src="https://img.shields.io/badge/Rust-1a1b26?style=for-the-badge&logo=rust&logoColor=ff9e64" />
+      <img src="https://img.shields.io/badge/Ruby-1a1b26?style=for-the-badge&logo=ruby&logoColor=f7768e" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Next.js-1a1b26?style=for-the-badge&logo=nextdotjs&logoColor=c0caf5" />
+      <img src="https://img.shields.io/badge/React-1a1b26?style=for-the-badge&logo=react&logoColor=7dcfff" />
+      <img src="https://img.shields.io/badge/Redux-1a1b26?style=for-the-badge&logo=redux&logoColor=bb9af7" />
+      <img src="https://img.shields.io/badge/TailwindCSS-1a1b26?style=for-the-badge&logo=tailwindcss&logoColor=7dcfff" />
+      <img src="https://img.shields.io/badge/Framer-1a1b26?style=for-the-badge&logo=framer&logoColor=c0caf5" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Backend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Node.js-1a1b26?style=for-the-badge&logo=nodedotjs&logoColor=9ece6a" />
+      <img src="https://img.shields.io/badge/Express-1a1b26?style=for-the-badge&logo=express&logoColor=c0caf5" />
+      <img src="https://img.shields.io/badge/Bun-1a1b26?style=for-the-badge&logo=bun&logoColor=e0af68" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Databases</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/PostgreSQL-1a1b26?style=for-the-badge&logo=postgresql&logoColor=7aa2f7" />
+      <img src="https://img.shields.io/badge/Redis-1a1b26?style=for-the-badge&logo=redis&logoColor=f7768e" />
+      <img src="https://img.shields.io/badge/MongoDB-1a1b26?style=for-the-badge&logo=mongodb&logoColor=9ece6a" />
+      <img src="https://img.shields.io/badge/Prisma-1a1b26?style=for-the-badge&logo=prisma&logoColor=7dcfff" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>DevOps</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker-1a1b26?style=for-the-badge&logo=docker&logoColor=7aa2f7" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-1a1b26?style=for-the-badge&logo=githubactions&logoColor=f7768e" />
+      <img src="https://img.shields.io/badge/Vercel-1a1b26?style=for-the-badge&logo=vercel&logoColor=c0caf5" />
+      <img src="https://img.shields.io/badge/Postman-1a1b26?style=for-the-badge&logo=postman&logoColor=ff9e64" />
+      <img src="https://img.shields.io/badge/Linux-1a1b26?style=for-the-badge&logo=linux&logoColor=e0af68" />
+    </td>
+  </tr>
 </table>
 
+<br/>
+
 ---
 
-### GitHub Stats
+## GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rayanjainn&show_icons=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=c4b5fd&text_color=e2e8f0&icon_color=7c3aed&border_color=30363d&border_radius=8&hide_border=false&rank_icon=github" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rayanjainn&layout=compact&langs_count=8&bg_color=0d1117&title_color=c4b5fd&text_color=e2e8f0&border_color=30363d&border_radius=8&hide_border=false" width="48%" />
-</div>
+```fish
+╭─ rayan@raycode  ~
+╰─❯ gh api /stats --pretty
+```
+
+<br/>
+
+<table width="100%" align="center">
+  <tr>
+    <td width="55%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=rayanjainn&show_icons=true&count_private=true&include_all_commits=true&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&rank_icon=github&custom_title=Rayan's+GitHub+Stats&hide_border=false" width="100%" />
+    </td>
+    <td width="45%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rayanjainn&layout=compact&langs_count=8&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&border_color=414868&border_radius=10&custom_title=Top+Languages&hide_border=false" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://streak-stats.demolab.com?user=rayanjainn&theme=transparent&background=1a1b26&border=414868&stroke=bb9af7&ring=7aa2f7&fire=f7768e&currStreakNum=c0caf5&sideNums=c0caf5&currStreakLabel=7aa2f7&sideLabels=565f89&dates=565f89&border_radius=10" width="65%" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+## Contribution Graph
+
+```fish
+╭─ rayan@raycode  ~
+╰─❯ git log --graph --all --oneline
+```
 
 <br/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=rayanjainn&theme=dark&background=0d1117&border=30363d&stroke=7c3aed&ring=6d28d9&fire=ec4899&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=c4b5fd&sideLabels=94a3b8&dates=64748b&border_radius=8" width="60%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rayanjainn&bg_color=1a1b26&color=7aa2f7&line=bb9af7&point=f7768e&area=true&area_color=24283b&hide_border=false&border_color=414868&radius=6&custom_title=Rayan's%20Contribution%20Graph" width="98%" />
 </div>
+
+<br/>
 
 ---
 
-### Contribution Graph
+## Coding Activity
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rayanjainn&bg_color=0d1117&color=c4b5fd&line=7c3aed&point=ec4899&area=true&area_color=6d28d9&hide_border=false&border_color=30363d&radius=6&custom_title=Rayan's%20Contribution%20Graph" width="96%" />
-</div>
+```fish
+╭─ rayan@raycode  ~
+╰─❯ wakatime --report --week
+```
 
----
-
-### Featured Projects
-
-<div align="center">
-  <a href="https://github.com/rayanjainn/draw-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=draw-app&bg_color=0d1117&title_color=c4b5fd&text_color=e2e8f0&icon_color=7c3aed&border_color=30363d&border_radius=8" width="46%" />
-  </a>
-  <a href="https://github.com/rayanjainn/multiverse">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=multiverse&bg_color=0d1117&title_color=c4b5fd&text_color=e2e8f0&icon_color=7c3aed&border_color=30363d&border_radius=8" width="46%" />
-  </a>
-
-  <br/><br/>
-
-  <a href="https://github.com/rayanjainn/boomsuite">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=boomsuite&bg_color=0d1117&title_color=c4b5fd&text_color=e2e8f0&icon_color=7c3aed&border_color=30363d&border_radius=8" width="46%" />
-  </a>
-  <a href="https://github.com/rayanjainn/chess">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=chess&bg_color=0d1117&title_color=c4b5fd&text_color=e2e8f0&icon_color=7c3aed&border_color=30363d&border_radius=8" width="46%" />
-  </a>
-
-  <br/><br/>
-
-  <a href="https://github.com/rayanjainn/scrapeit">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=scrapeit&bg_color=0d1117&title_color=c4b5fd&text_color=e2e8f0&icon_color=7c3aed&border_color=30363d&border_radius=8" width="46%" />
-  </a>
-  <a href="https://github.com/Th3C0d3Mast3r/Network-Analyzer-and-Healer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Th3C0d3Mast3r&repo=Network-Analyzer-and-Healer&bg_color=0d1117&title_color=c4b5fd&text_color=e2e8f0&icon_color=7c3aed&border_color=30363d&border_radius=8&show_owner=true" width="46%" />
-  </a>
-</div>
-
----
-
-### Coding Activity
+<br/>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-64%20hrs%2033%20mins-blue?style=flat)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-853.42%20thousand%20lines%20of%20code-blue?style=flat)
-
-**🐱 My GitHub Data** 
-
-> 📦 139.9 kB Used in GitHub's Storage 
- > 
-> 🏆 265 Contributions in the Year 2026
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 37 Public Repositories 
- > 
-> 🔑 17 Private Repositories 
- > 
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                97 commits          ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   18.27 % 
-🌆 Daytime                224 commits         ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   42.18 % 
-🌃 Evening                138 commits         ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   25.99 % 
-🌙 Night                  72 commits          ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   13.56 % 
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday                   46 commits          ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   08.66 % 
-Tuesday                  32 commits          ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   06.03 % 
-Wednesday                129 commits         ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   24.29 % 
-Thursday                 80 commits          ⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   15.07 % 
-Friday                   40 commits          ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   07.53 % 
-Saturday                 128 commits         ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   24.11 % 
-Sunday                   76 commits          ⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   14.31 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-Python                   3 hrs 23 mins       ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   24.12 % 
-Markdown                 2 hrs 58 mins       ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   21.09 % 
-TypeScript               2 hrs 48 mins       ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   19.98 % 
-Other                    1 hr 54 mins        ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   13.56 % 
-Bash                     1 hr 30 mins        ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   10.64 % 
-
-🐱‍💻 Projects: 
-Meta-Hack-VyomRaksha     3 hrs 20 mins       ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   23.67 % 
-duckops                  3 hrs               ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   21.33 % 
-gdg                      2 hrs 43 mins       ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   19.32 % 
-rayanjain                1 hr 29 mins        ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   10.61 % 
-spj                      1 hr 13 mins        ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   08.74 % 
-```
-
-**I Mostly Code in TypeScript** 
-
-```text
-TypeScript               33 repos            ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   50.77 % 
-Python                   4 repos             ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   06.15 % 
-Rust                     3 repos             ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   04.62 % 
-Swift                    1 repo              ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.54 % 
-Ruby                     1 repo              ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.54 % 
-```
-
-
-
-
 <!--END_SECTION:waka-->
 
+<br/>
+
 ---
 
-### Trophies
+## Featured Projects
+
+```fish
+╭─ rayan@raycode  ~/projects
+╰─❯ ls --pinned --sort=stars
+```
+
+<br/>
+
+<table width="100%" align="center">
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/rayanjainn/draw-app">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=draw-app&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/rayanjainn/multiverse">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=multiverse&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/rayanjainn/boomsuite">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=boomsuite&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/rayanjainn/chess">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=chess&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/rayanjainn/scrapeit">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=scrapeit&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/Th3C0d3Mast3r/Network-Analyzer-and-Healer">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Th3C0d3Mast3r&repo=Network-Analyzer-and-Healer&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&show_owner=true&description_lines_count=2" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+## Trophies
+
+```fish
+╭─ rayan@raycode  ~
+╰─❯ gh trophies --theme=tokyonight
+```
+
+<br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rayanjainn&theme=discord&no-frame=false&no-bg=false&column=6&margin-w=8&margin-h=8" width="92%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=rayanjainn&theme=tokyonight&no-frame=false&no-bg=false&column=6&margin-w=10&margin-h=10" width="94%" />
 </div>
+
+<br/>
 
 ---
 
-### Connect
+## Contribution Snake
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rayanjainn/rayanjainn/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rayanjainn/rayanjainn/output/github-contribution-grid-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/rayanjainn/rayanjainn/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</div>
+
+<br/>
+
+---
+
+## Connect
+
+```fish
+╭─ rayan@raycode  ~
+╰─❯ cat ./links.md
+```
+
+<br/>
 
 <div align="center">
   <a href="https://github.com/rayanjainn">
-    <img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-1a1b26?style=for-the-badge&logo=github&logoColor=c0caf5" />
   </a>
   &nbsp;
   <a href="https://linkedin.com/in/rayanjainn">
-    <img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
+    <img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" />
   </a>
   &nbsp;
   <a href="https://twitter.com/rayanjainn">
-    <img src="https://img.shields.io/badge/X-161b22?style=for-the-badge&logo=x&logoColor=white" />
+    <img src="https://img.shields.io/badge/X_Twitter-1a1b26?style=for-the-badge&logo=x&logoColor=c0caf5" />
+  </a>
+  &nbsp;
+  <a href="mailto:rayansjain@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-1a1b26?style=for-the-badge&logo=gmail&logoColor=f7768e" />
+  </a>
+  &nbsp;
+  <a href="https://app.raycode.tech">
+    <img src="https://img.shields.io/badge/raycode.tech-1a1b26?style=for-the-badge&logo=vercel&logoColor=9ece6a" />
   </a>
 </div>
 
 <br/>
 
-<!-- Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=110&section=footer&animation=fadeIn" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=3000&pause=1000&color=565F89&center=true&vCenter=true&width=380&lines=thanks+for+visiting+%3A%29;go+build+something+cool." />
 </div>
+
+<br/>
