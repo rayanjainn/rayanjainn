@@ -274,36 +274,36 @@ Ruby                     1 repo              ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/rayanjainn/draw-app">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=draw-app&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
+        <img src="https://gh-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=draw-app&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/rayanjainn/multiverse">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=multiverse&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
+        <img src="https://gh-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=multiverse&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/rayanjainn/boomsuite">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=boomsuite&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
+        <img src="https://gh-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=boomsuite&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/rayanjainn/chess">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=chess&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
+        <img src="https://gh-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=chess&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/rayanjainn/scrapeit">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=scrapeit&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
+        <img src="https://gh-readme-stats.vercel.app/api/pin/?username=rayanjainn&repo=scrapeit&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&description_lines_count=2" width="100%" />
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/Th3C0d3Mast3r/Network-Analyzer-and-Healer">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Th3C0d3Mast3r&repo=Network-Analyzer-and-Healer&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&show_owner=true&description_lines_count=2" width="100%" />
+        <img src="https://gh-readme-stats.vercel.app/api/pin/?username=Th3C0d3Mast3r&repo=Network-Analyzer-and-Healer&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&border_color=414868&border_radius=10&show_owner=true&description_lines_count=2" width="100%" />
       </a>
     </td>
   </tr>
