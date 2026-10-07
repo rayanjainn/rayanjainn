@@ -300,7 +300,7 @@ def svg(w, h, body, style="", label=""):
 # --------------------------------------------------------------------------- header
 
 def header():
-    W, H = 1200, 380
+    W, H = 1200, 330
     phrases = [
         "building a browser AI agents can't be tricked by",
         "full-stack engineer · systems tinkerer",
@@ -322,16 +322,16 @@ def header():
         cx_vals = ";".join(f"{x0 + float(v):.1f}" for v in vals.split(";"))
         vis_kt, vis_v = discrete([(0, 0), (t0, 1), (t0 + slot, 0)], total)
         typing.append(f"""
-  <clipPath id="tc{i}"><rect x="{x0:.1f}" y="226" height="40" width="0">
+  <clipPath id="tc{i}"><rect x="{x0:.1f}" y="206" height="40" width="0">
     <animate attributeName="width" calcMode="discrete" dur="{total}s" repeatCount="indefinite" keyTimes="{kt}" values="{vals}"/>
   </rect></clipPath>
   <g opacity="0">
     <animate attributeName="opacity" calcMode="discrete" dur="{total}s" repeatCount="indefinite" keyTimes="{vis_kt}" values="{vis_v}"/>
     <g clip-path="url(#tc{i})">
-      {mono(x0, 254, "❯", size, CYAN)}
-      {mono(x0 + 2 * cw, 254, p, size, "#c9cee6")}
+      {mono(x0, 234, "❯", size, CYAN)}
+      {mono(x0 + 2 * cw, 234, p, size, "#c9cee6")}
     </g>
-    <rect class="cur" y="234" width="{cw * .55:.1f}" height="26" rx="2" fill="{PINK}" x="{x0:.1f}">
+    <rect class="cur" y="214" width="{cw * .55:.1f}" height="26" rx="2" fill="{PINK}" x="{x0:.1f}">
       <animate attributeName="x" calcMode="discrete" dur="{total}s" repeatCount="indefinite" keyTimes="{kt}" values="{cx_vals}"/>
     </rect>
   </g>""")
@@ -373,8 +373,8 @@ def header():
     lx, loc_parts = W / 2 - loc_w / 2, []
     for i, t in enumerate(loc):
         if i:
-            loc_parts.append(f'<circle cx="{lx - loc_gap / 2:.1f}" cy="318" r="2" fill="#6b7299"/>')
-        loc_parts.append(mono(lx, 322, t, 13, "#6b7299"))
+            loc_parts.append(f'<circle cx="{lx - loc_gap / 2:.1f}" cy="286" r="2" fill="#6b7299"/>')
+        loc_parts.append(mono(lx, 290, t, 13, "#6b7299"))
         lx += len(t) * 13 * CW + loc_gap
 
     body = f"""
@@ -407,13 +407,13 @@ def header():
   <rect x=".75" y=".75" width="{W - 1.5}" height="{H - 1.5}" rx="22" stroke="url(#rim)" stroke-width="1.5"/>
 
   <g class="rise">
-    <rect x="{px:.1f}" y="38" width="{pill_w:.1f}" height="30" rx="15" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".12"/>
-    <circle class="pulse" cx="{px + 20:.1f}" cy="53" r="4" fill="{GREEN}"/>
-    <circle cx="{px + 20:.1f}" cy="53" r="4" fill="{GREEN}"/>
-    {mono(px + 34, 57.5, pill, 12, "#b7bdd8")}
+    <rect x="{px:.1f}" y="30" width="{pill_w:.1f}" height="30" rx="15" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".12"/>
+    <circle class="pulse" cx="{px + 20:.1f}" cy="45" r="4" fill="{GREEN}"/>
+    <circle cx="{px + 20:.1f}" cy="45" r="4" fill="{GREEN}"/>
+    {mono(px + 34, 49.5, pill, 12, "#b7bdd8")}
   </g>
   <g class="rise d1">
-    <text x="{W / 2}" y="178" text-anchor="middle" font-family="{SANS}" font-size="104" font-weight="800"
+    <text x="{W / 2}" y="160" text-anchor="middle" font-family="{SANS}" font-size="104" font-weight="800"
       letter-spacing="-3" fill="url(#name)">Rayan Jain</text>
   </g>
   {''.join(typing)}
@@ -687,7 +687,8 @@ def main():
             except Exception as e:  # WakaTime is optional garnish
                 print("wakatime skipped:", e)
 
-    # Static art lives in assets/ on main; live cards are published to the `output` branch.
+    # Everything except the stats card lives in assets/ on main, so it loads with the page.
+    # Stats change hourly and go to the `output` branch, keeping main's history clean.
     write(OUT / "header.svg", header())
     write(OUT / "terminal.svg", terminal())
     write(OUT / "footer.svg", footer())
@@ -696,7 +697,7 @@ def main():
     synced = ist.strftime("%d %b · %H:%M ist").lower()
     write(live_dir / "stats.svg", stats(data, waka, synced))
     for i, p in enumerate(PROJECTS):
-        write(live_dir / f"{p['repo']}.svg", project(p, data["repo_stars"].get(p["repo"], 0), hero=i == 0))
+        write(OUT / "projects" / f"{p['repo']}.svg", project(p, data["repo_stars"].get(p["repo"], 0), hero=i == 0))
 
 
 if __name__ == "__main__":
