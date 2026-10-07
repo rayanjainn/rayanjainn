@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render the animated SVGs used by the profile README.
 
-Runs daily in GitHub Actions. Live numbers come from the GitHub GraphQL API
+Runs hourly in GitHub Actions. Live numbers come from the GitHub GraphQL API
 (GITHUB_TOKEN) and, when WAKATIME_API_KEY is set, from WakaTime.
 `python3 scripts/generate.py --demo` renders with sample data, no network.
 """
@@ -663,21 +663,21 @@ def footer():
 
 # --------------------------------------------------------------------------- main
 
-def write(name, content):
-    path = OUT / name
+def write(path, content):
     path.parent.mkdir(parents=True, exist_ok=True)
     if not path.exists() or path.read_text() != content:
         path.write_text(content)
-        print("wrote", path.relative_to(ROOT))
+        print("wrote", path)
 
 
 def main():
     demo = "--demo" in sys.argv
+    live_dir = Path(sys.argv[sys.argv.index("--out") + 1]) if "--out" in sys.argv else ROOT / "dist"
     token = os.environ.get("GITHUB_TOKEN")
-    if demo or not token:
-        if not demo:
-            sys.exit("GITHUB_TOKEN is not set (use --demo for sample data)")
+    if demo:
         data, waka = DEMO, None
+    elif not token:
+        sys.exit("GITHUB_TOKEN is not set (use --demo for sample data)")
     else:
         data = fetch_github(token)
         waka = None
@@ -687,13 +687,16 @@ def main():
             except Exception as e:  # WakaTime is optional garnish
                 print("wakatime skipped:", e)
 
-    synced = dt.date.today().strftime("%d %b %Y").lower()
-    write("header.svg", header())
-    write("terminal.svg", terminal())
-    write("stats.svg", stats(data, waka, synced))
+    # Static art lives in assets/ on main; live cards are published to the `output` branch.
+    write(OUT / "header.svg", header())
+    write(OUT / "terminal.svg", terminal())
+    write(OUT / "footer.svg", footer())
+
+    ist = dt.datetime.now(dt.timezone(dt.timedelta(hours=5, minutes=30)))
+    synced = ist.strftime("%d %b · %H:%M ist").lower()
+    write(live_dir / "stats.svg", stats(data, waka, synced))
     for i, p in enumerate(PROJECTS):
-        write(f"projects/{p['repo']}.svg", project(p, data["repo_stars"].get(p["repo"], 0), hero=i == 0))
-    write("footer.svg", footer())
+        write(live_dir / f"{p['repo']}.svg", project(p, data["repo_stars"].get(p["repo"], 0), hero=i == 0))
 
 
 if __name__ == "__main__":

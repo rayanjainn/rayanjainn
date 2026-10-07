@@ -12,7 +12,7 @@
 <br/><br/>
 
 <img src="./assets/terminal.svg" alt="whoami" width="49%" />
-<img src="./assets/stats.svg" alt="GitHub stats" width="49%" />
+<img src="https://raw.githubusercontent.com/rayanjainn/rayanjainn/output/stats.svg" alt="GitHub stats" width="49%" />
 
 </div>
 
@@ -22,12 +22,12 @@
 
 <div align="center">
 
-<a href="https://github.com/rayanjainn/ferrite-browser"><img src="./assets/projects/ferrite-browser.svg" alt="Ferrite" width="100%" /></a>
+<a href="https://github.com/rayanjainn/ferrite-browser"><img src="https://raw.githubusercontent.com/rayanjainn/rayanjainn/output/ferrite-browser.svg" alt="Ferrite" width="100%" /></a>
 
-<a href="https://github.com/rayanjainn/sentinel"><img src="./assets/projects/sentinel.svg" alt="Sentinel" width="49%" /></a>
-<a href="https://github.com/rayanjainn/duckops"><img src="./assets/projects/duckops.svg" alt="DuckOps" width="49%" /></a>
-<a href="https://github.com/rayanjainn/devhub"><img src="./assets/projects/devhub.svg" alt="DevHub" width="49%" /></a>
-<a href="https://github.com/rayanjainn/neurocred"><img src="./assets/projects/neurocred.svg" alt="NeuroCred" width="49%" /></a>
+<a href="https://github.com/rayanjainn/sentinel"><img src="https://raw.githubusercontent.com/rayanjainn/rayanjainn/output/sentinel.svg" alt="Sentinel" width="49%" /></a>
+<a href="https://github.com/rayanjainn/duckops"><img src="https://raw.githubusercontent.com/rayanjainn/rayanjainn/output/duckops.svg" alt="DuckOps" width="49%" /></a>
+<a href="https://github.com/rayanjainn/devhub"><img src="https://raw.githubusercontent.com/rayanjainn/rayanjainn/output/devhub.svg" alt="DevHub" width="49%" /></a>
+<a href="https://github.com/rayanjainn/neurocred"><img src="https://raw.githubusercontent.com/rayanjainn/rayanjainn/output/neurocred.svg" alt="NeuroCred" width="49%" /></a>
 
 </div>
 
