@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" role="img" aria-label="whoami: Rayan Jain, full-stack and systems engineer" fill="none">
+<style>.cur { animation: blink 1s steps(1) infinite; } @keyframes blink { 50% { opacity: 0; } }</style>
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1020"/><stop offset="1" stop-color="#090a12"/>
+    </linearGradient>
+    <linearGradient id="tedge" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="340">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity=".9"/>
+      <stop offset=".45" stop-color="#262a45" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity=".7"/>
+      <animateTransform attributeName="gradientTransform" type="rotate"
+        values="0 300.0 170.0;360 300.0 170.0" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="598" height="338" rx="16" fill="url(#tbg)" stroke="url(#tedge)" stroke-width="1.5"/>
+  <line x1="1" y1="44" x2="599" y2="44" stroke="#1d2138"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f57"/><circle cx="44" cy="22" r="6" fill="#febc2e"/><circle cx="64" cy="22" r="6" fill="#28c840"/>
+  <text x="88.0" y="27" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#8b93b8" textLength="124.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >rayan@raycode: ~</text>
+  <text x="558.4" y="27" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#4a5072" textLength="21.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >zsh</text>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.025;0.96364" values="0;1;0"/>
+    <text x="24.0" y="76" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#34d399" textLength="8.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >❯</text><text x="41.4" y="76" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#22d3ee" textLength="8.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >~</text>
+  </g>
+  <clipPath id="l76"><rect x="58.8" y="60" height="22" width="0">
+    <animate attributeName="width" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.03011;0.03295;0.0358;0.03864;0.04148;0.04432;0.96364" values="0;8.7;17.4;26.1;34.8;43.5;52.2;0"/>
+  </rect></clipPath>
+  <g clip-path="url(#l76)"><text x="58.8" y="76" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#e6e9f5" textLength="52.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >whoami</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.06477;0.96364" values="0;1;0"/>
+    <text x="58.8" y="102" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#e6e9f5" textLength="87.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Rayan Jain</text><text x="145.8" y="102" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#8b93b8" textLength="278.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" > · full-stack &amp; systems engineer</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.07841;0.96364" values="0;1;0"/>
+    <text x="24.0" y="128" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#34d399" textLength="8.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >❯</text><text x="41.4" y="128" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#22d3ee" textLength="8.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >~</text>
+  </g>
+  <clipPath id="l128"><rect x="58.8" y="112" height="22" width="0">
+    <animate attributeName="width" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.08352;0.08636;0.0892;0.09205;0.09489;0.09773;0.10057;0.10341;0.10625;0.10909;0.11193;0.96364" values="0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;78.3;87;95.7;0"/>
+  </rect></clipPath>
+  <g clip-path="url(#l128)"><text x="58.8" y="128" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#e6e9f5" textLength="95.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >cat now.txt</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.13239;0.96364" values="0;1;0"/>
+    <text x="58.8" y="154" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#8b93b8" textLength="78.3" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >building </text><text x="137.1" y="154" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#fb923c" textLength="60.9" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >ferrite</text><text x="198.0" y="154" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#8b93b8" textLength="174.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >: a rust browser for</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.1483;0.96364" values="0;1;0"/>
+    <text x="58.8" y="180" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#8b93b8" textLength="339.3" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >AI agents that can't be prompt-injected</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.16193;0.96364" values="0;1;0"/>
+    <text x="24.0" y="206" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#34d399" textLength="8.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >❯</text><text x="41.4" y="206" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#22d3ee" textLength="8.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >~</text>
+  </g>
+  <clipPath id="l206"><rect x="58.8" y="190" height="22" width="0">
+    <animate attributeName="width" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.16705;0.16989;0.17273;0.17557;0.17841;0.18125;0.18409;0.18693;0.18977;0.96364" values="0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;78.3;0"/>
+  </rect></clipPath>
+  <g clip-path="url(#l206)"><text x="58.8" y="206" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#e6e9f5" textLength="78.3" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >ls ~/into</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.21023;0.96364" values="0;1;0"/>
+    <text x="58.8" y="232" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#dea584" textLength="60.9" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >rust/  </text><text x="119.7" y="232" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#22d3ee" textLength="95.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >browsers/  </text><text x="215.4" y="232" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#a78bfa" textLength="69.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >infra/  </text><text x="285.0" y="232" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#34d399" textLength="87.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >dev-tools/</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.22386;0.96364" values="0;1;0"/>
+    <text x="24.0" y="258" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#34d399" textLength="8.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >❯</text><text x="41.4" y="258" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#22d3ee" textLength="8.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >~</text>
+  </g>
+  <clipPath id="l258"><rect x="58.8" y="242" height="22" width="0">
+    <animate attributeName="width" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.22898;0.23182;0.23466;0.2375;0.24034;0.24318;0.24602;0.24886;0.2517;0.25455;0.25739;0.96364" values="0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;78.3;87;95.7;0"/>
+  </rect></clipPath>
+  <g clip-path="url(#l258)"><text x="58.8" y="258" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#e6e9f5" textLength="95.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >echo $MOTTO</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.27784;0.96364" values="0;1;0"/>
+    <text x="58.8" y="284" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#f472b6" textLength="313.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >ship fast. break things. fix faster.</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.29375;0.96364" values="0;1;0"/>
+    <text x="24.0" y="310" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#34d399" textLength="8.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >❯</text><text x="41.4" y="310" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14.5" fill="#22d3ee" textLength="8.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >~</text>
+    <rect class="cur" x="58.8" y="297" width="8.7" height="17" rx="1.5" fill="#f472b6"/>
+  </g>
+</svg>
