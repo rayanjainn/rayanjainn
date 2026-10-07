@@ -168,6 +168,8 @@ def fetch_github(token):
         "streak": cur,
         "longest": longest,
         "stars": stars,
+        "last30": sum(c for d, c in days.items()
+                      if 0 <= (today - dt.date.fromisoformat(d)).days < 30),
         "followers": base["followers"]["totalCount"],
         "repos": base["repositories"]["totalCount"],
         "langs": top_langs(langs, colors),
@@ -215,7 +217,7 @@ def fetch_wakatime(key):
 
 DEMO = {
     "year": dt.date.today().year, "year_total": 409, "all_time": 1287, "streak": 12, "longest": 41,
-    "stars": 18, "followers": 64, "repos": 40,
+    "stars": 18, "followers": 64, "repos": 40, "last30": 96,
     "langs": [("TypeScript", .52, "#3178c6"), ("Rust", .18, "#dea584"), ("Python", .12, "#3572a5"),
               ("Swift", .06, "#f05138"), ("Go", .04, "#00add8"), ("Java", .03, "#b07219"),
               ("Other", .05, "#3b4061")],
@@ -496,6 +498,10 @@ def stats(d, waka_secs, synced):
         (fmt(d["repos"]), "public repos", GREEN),
         (fmt(d["stars"]), "stars earned", "#fb923c"),
     ]
+    if not d["streak"]:
+        metrics[2] = (fmt(d["last30"]), "contributions, last 30d", PINK)
+    if d["stars"] < 5:
+        metrics[5] = (fmt(d["followers"]), "followers", "#fb923c")
     if waka_secs:
         h, m = divmod(waka_secs // 60, 60)
         metrics[4] = (f"{h}h {m:02d}m", "coded this week", GREEN)
