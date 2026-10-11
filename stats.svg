@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" role="img" aria-label="GitHub stats: 1220 contributions in 2026" fill="none">
+<style>
+    .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.8,.2,1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    .grow { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1.1s cubic-bezier(.2,.8,.2,1) forwards; }
+    @keyframes grow { to { transform: scaleX(1); } }
+    .live { animation: live 1.6s ease-in-out infinite; } @keyframes live { 50% { opacity: .25; } }
+    </style>
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1020"/><stop offset="1" stop-color="#090a12"/>
+    </linearGradient>
+    <linearGradient id="sedge" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="340">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".9"/>
+      <stop offset=".45" stop-color="#262a45" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity=".7"/>
+      <animateTransform attributeName="gradientTransform" type="rotate"
+        values="0 300.0 170.0;360 300.0 170.0" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="598" height="338" rx="16" fill="url(#sbg)" stroke="url(#sedge)" stroke-width="1.5"/>
+  <line x1="1" y1="44" x2="599" y2="44" stroke="#1d2138"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f57"/><circle cx="44" cy="22" r="6" fill="#febc2e"/><circle cx="64" cy="22" r="6" fill="#28c840"/>
+  <text x="88.0" y="27" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#8b93b8" textLength="54.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >~/stats</text>
+  
+  <circle class="live" cx="384.0" cy="22.5" r="3.5" fill="#34d399"/>
+  <text x="396.0" y="27" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#4a5072" textLength="180.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >synced 11 oct · 06:20 ist</text>
+  
+  <g class="rise" style="animation-delay:0.15s">
+    <rect x="24" y="66" width="176" height="68" rx="10" fill="#ffffff" fill-opacity=".025" stroke="#ffffff" stroke-opacity=".06"/>
+    <rect x="24" y="66" width="3" height="68" rx="1.5" fill="#22d3ee"/>
+    <text x="40" y="102" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="27" font-weight="800" fill="#e6e9f5">1,220</text>
+    <text x="40.0" y="123" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8b93b8" textLength="138.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >contributions in 2026</text>
+  </g>
+  <g class="rise" style="animation-delay:0.27s">
+    <rect x="212" y="66" width="176" height="68" rx="10" fill="#ffffff" fill-opacity=".025" stroke="#ffffff" stroke-opacity=".06"/>
+    <rect x="212" y="66" width="3" height="68" rx="1.5" fill="#a78bfa"/>
+    <text x="228" y="102" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="27" font-weight="800" fill="#e6e9f5">1,471</text>
+    <text x="228.0" y="123" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8b93b8" textLength="145.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >all-time contributions</text>
+  </g>
+  <g class="rise" style="animation-delay:0.39s">
+    <rect x="400" y="66" width="176" height="68" rx="10" fill="#ffffff" fill-opacity=".025" stroke="#ffffff" stroke-opacity=".06"/>
+    <rect x="400" y="66" width="3" height="68" rx="1.5" fill="#f472b6"/>
+    <text x="416" y="102" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="27" font-weight="800" fill="#e6e9f5">2d</text>
+    <text x="416.0" y="123" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8b93b8" textLength="92.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >current streak</text>
+  </g>
+  <g class="rise" style="animation-delay:0.51s">
+    <rect x="24" y="148" width="176" height="68" rx="10" fill="#ffffff" fill-opacity=".025" stroke="#ffffff" stroke-opacity=".06"/>
+    <rect x="24" y="148" width="3" height="68" rx="1.5" fill="#fbbf24"/>
+    <text x="40" y="184" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="27" font-weight="800" fill="#e6e9f5">15d</text>
+    <text x="40.0" y="205" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8b93b8" textLength="92.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >longest streak</text>
+  </g>
+  <g class="rise" style="animation-delay:0.63s">
+    <rect x="212" y="148" width="176" height="68" rx="10" fill="#ffffff" fill-opacity=".025" stroke="#ffffff" stroke-opacity=".06"/>
+    <rect x="212" y="148" width="3" height="68" rx="1.5" fill="#34d399"/>
+    <text x="228" y="184" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="27" font-weight="800" fill="#e6e9f5">36</text>
+    <text x="228.0" y="205" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8b93b8" textLength="79.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >public repos</text>
+  </g>
+  <g class="rise" style="animation-delay:0.75s">
+    <rect x="400" y="148" width="176" height="68" rx="10" fill="#ffffff" fill-opacity=".025" stroke="#ffffff" stroke-opacity=".06"/>
+    <rect x="400" y="148" width="3" height="68" rx="1.5" fill="#fb923c"/>
+    <text x="416" y="184" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="27" font-weight="800" fill="#e6e9f5">18</text>
+    <text x="416.0" y="205" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8b93b8" textLength="59.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >followers</text>
+  </g>
+  <text x="24.0" y="252" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#4a5072" textLength="59.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >languages</text>
+  <clipPath id="barclip"><rect x="24" y="264" width="552" height="10" rx="5"/></clipPath>
+  <rect x="24" y="264" width="552" height="10" rx="5" fill="#ffffff" fill-opacity=".05"/>
+  <g clip-path="url(#barclip)"><rect class="grow" style="animation-delay:0.90s" x="24.0" y="264" width="328.7" height="10" fill="#3178c6"/><rect class="grow" style="animation-delay:1.00s" x="352.7" y="264" width="77.6" height="10" fill="#3572A5"/><rect class="grow" style="animation-delay:1.10s" x="430.3" y="264" width="63.1" height="10" fill="#dea584"/><rect class="grow" style="animation-delay:1.20s" x="493.5" y="264" width="56.4" height="10" fill="#f1e05a"/><rect class="grow" style="animation-delay:1.30s" x="549.9" y="264" width="9.1" height="10" fill="#b07219"/><rect class="grow" style="animation-delay:1.40s" x="559.0" y="264" width="6.8" height="10" fill="#89e051"/><rect class="grow" style="animation-delay:1.50s" x="565.8" y="264" width="10.2" height="10" fill="#3b4061"/></g>
+  <g class="rise" style="animation-delay:1.20s">
+    <circle cx="29" cy="296" r="4.5" fill="#3178c6"/><text x="39.0" y="300" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8b93b8" textLength="92.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >TypeScript 60%</text></g><g class="rise" style="animation-delay:1.28s">
+    <circle cx="147.39999999999998" cy="296" r="4.5" fill="#3572A5"/><text x="157.4" y="300" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8b93b8" textLength="66.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Python 14%</text></g><g class="rise" style="animation-delay:1.36s">
+    <circle cx="239.39999999999998" cy="296" r="4.5" fill="#dea584"/><text x="249.4" y="300" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8b93b8" textLength="52.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Rust 11%</text></g><g class="rise" style="animation-delay:1.44s">
+    <circle cx="318.2" cy="296" r="4.5" fill="#f1e05a"/><text x="328.2" y="300" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8b93b8" textLength="92.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >JavaScript 10%</text></g><g class="rise" style="animation-delay:1.52s">
+    <circle cx="436.59999999999997" cy="296" r="4.5" fill="#b07219"/><text x="446.6" y="300" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8b93b8" textLength="46.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Java 2%</text></g>
+</svg>
